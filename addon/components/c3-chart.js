@@ -3,7 +3,6 @@ import get from 'ember-metal/get';
 import set from 'ember-metal/set';
 import { getProperties } from 'ember-metal/get';
 import { debounce, later, scheduleOnce } from 'ember-runloop';
-import c3 from 'c3';
 
 export default Component.extend({
   tagName: 'div',
